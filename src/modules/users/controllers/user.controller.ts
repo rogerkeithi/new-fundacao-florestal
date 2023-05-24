@@ -33,8 +33,4 @@ export class userController {
       return 'deu merda irmao';
     }
   }
-  @Get('/login')
-  async login(){
-
-  }
 }
