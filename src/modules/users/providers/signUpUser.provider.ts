@@ -4,7 +4,6 @@ import { getAuth } from 'firebase-admin/auth';
 @Injectable()
 export class SignUpUserProvider {
   public async signUpUser(email, password): Promise<any> {
-    console.log(email);
     getAuth()
       .createUser({
         email: email,
